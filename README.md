@@ -8,13 +8,13 @@ The code will allow the user to interact with data in a slice to:
 	Add new data to the slice
 ## INSTALLATION
 You can get GO for mac from here: ![GO](https://go.dev/doc/install)
-Using your Terminal after installation check you version by typing ´´´$ go version´´´
+Using your Terminal after installation check you version by typing ```$ go version```
 
 Download the code and unzip
 
 ## USAGE
 
-Type ´´´´$ go run main.go´´´
+Type ```$ go run main.go```
 That should start gin server over port 8080
 
 The file go.mod contains the external modules required to run the app

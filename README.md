@@ -1,6 +1,6 @@
 # jazz-store
 ## Basics RESTful web service API with Go and Gin
-You can use this code to understand the basic prnciples of routing a web API using GO and GIN
+You can use this code to understand the basic principles of routing a web API using GO and GIN
 
 The code will allow the user to interact with data in a slice to:
 	List all data
@@ -8,14 +8,15 @@ The code will allow the user to interact with data in a slice to:
 	Add new data to the slice
 ## INSTALLATION
 You can get GO for mac from here: ![GO](https://go.dev/doc/install)
-Using your Terminal after installation check you version by typing ```$ go version```
+Using your Terminal after installation check you version by typing
+```$ go version```
 
 Download the code and unzip
 
 ## USAGE
 
 Type ```$ go run main.go```
-That should start gin server over port 8080
+That should start gin server over port 8080 in you localhost
 
 The file go.mod contains the external modules required to run the app
 
@@ -28,6 +29,12 @@ The file go.mod contains the external modules required to run the app
 
 /albums/:id
     GET – Get an album by its ID, returning the album data as JSON.
+
+
+[GIN-debug] GET    /albums                   --> main.getAlbums (3 handlers)
+[GIN-debug] GET    /albums/:id               --> main.getAlbumByID (3 handlers)
+[GIN-debug] POST   /albums                   --> main.postAlbums (3 handlers)
+
 
 ## STRUCT
 Each album has four data fields that must be filled 

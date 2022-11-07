@@ -2,6 +2,8 @@
 ## Basics RESTful web service API with Go and Gin
 You can use this code to understand the basic principles of routing a web API using GO and GIN
 
+[Example image of album enpoint](https://github.com/rodrigozarate/jazz-store/blob/main/go-album-view.png)
+
 The code will allow the user to interact with data in a slice to:
 	List all data
 	Get the details of one record
